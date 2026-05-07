@@ -4,17 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Despistados Café | Café boutique para perder la prisa</title>
+  <title>Despistados Caf&eacute; | Caf&eacute; boutique en La Palma</title>
 
   <meta
     name="description"
-    content="Despistados Café es una cafetería boutique con café artesanal, bebidas especiales, repostería y un ambiente cálido para disfrutar sin prisa."
+    content="Despistados Caf&eacute; es una cafeter&iacute;a boutique en La Palma con caf&eacute; artesanal, reposter&iacute;a y una experiencia c&aacute;lida para disfrutar sin prisa."
   />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Special+Elite&family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Special+Elite&family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
 
@@ -22,24 +22,17 @@
 </head>
 
 <body>
-  <div class="page-loader" aria-hidden="true">
-    <div class="loader-mark">
-      <span class="logo-name">Despistados</span>
-      <span class="logo-sub">Café</span>
-    </div>
-  </div>
-
   <header class="site-header">
-    <nav class="navbar" aria-label="Navegación principal">
-      <a href="#inicio" class="brand" aria-label="Despistados Café - Inicio">
+    <nav class="navbar" aria-label="Navegaci&oacute;n principal">
+      <a href="#inicio" class="brand" aria-label="Despistados Caf&eacute; - Inicio">
         <span class="logo-name">Despistados</span>
-        <span class="logo-sub">Café</span>
+        <span class="logo-sub">Caf&eacute;</span>
       </a>
 
       <button
         class="menu-toggle"
         type="button"
-        aria-label="Abrir menú"
+        aria-label="Abrir menu"
         aria-expanded="false"
         aria-controls="main-menu"
       >
@@ -49,10 +42,9 @@
 
       <ul class="nav-menu" id="main-menu">
         <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#favoritos">Favoritos</a></li>
-        <li><a href="#menu">Menú PDF</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#menu">Men&uacute;</a></li>
+        <li><a href="#galeria">Galer&iacute;a</a></li>
+        <li><a href="#ubicacion">Ubicaci&oacute;n</a></li>
         <li>
           <a class="nav-button" href="https://wa.me/50372736123" target="_blank" rel="noopener noreferrer">
             WhatsApp
@@ -63,299 +55,297 @@
   </header>
 
   <main id="inicio">
-    <section class="hero" aria-label="Despistados Café">
-      <div class="hero-backdrop" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1800&q=86"
-          alt=""
-        />
-      </div>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy" data-animate="fade-up">
+          <span class="eyebrow">Caf&eacute; boutique en La Palma</span>
+          <h1 id="hero-title">
+            <span class="logo-name">Despistados</span>
+            <span class="logo-sub">Caf&eacute;</span>
+          </h1>
+          <p>
+            Caf&eacute; artesanal, reposter&iacute;a seleccionada y una pausa c&aacute;lida para
+            disfrutar sin prisa.
+          </p>
 
-      <div class="hero-content">
-        <span class="eyebrow">Café boutique · artesanal · sin prisa</span>
-
-        <h1 class="brand-mark hero-wordmark" aria-label="Despistados Café">
-          <span class="logo-name">Despistados</span>
-          <span class="logo-sub">Café</span>
-        </h1>
-
-        <p class="hero-lead">
-          Café para perder la prisa, repostería selecta y una atmósfera cálida para quedarse un rato más.
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#favoritos">Ver favoritos</a>
-          <a class="btn btn-light" href="assets/menu-despistados-cafe.pdf" target="_blank" rel="noopener noreferrer">
-            Menú completo PDF
-          </a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">Ver men&uacute;</a>
+            <a class="btn btn-secondary" href="#ubicacion">C&oacute;mo llegar</a>
+          </div>
         </div>
 
-      </div>
+        <div class="hero-media" data-animate="image-reveal">
+          <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=86"
+            alt="Caf&eacute; servido en una mesa de cafeter&iacute;a"
+          />
 
-      <aside class="hero-note" aria-label="Detalles de la experiencia">
-        <span>Slow coffee</span>
-        <strong>Bebidas preparadas con calma, luz cálida y detalles que se sienten.</strong>
-      </aside>
+          <aside class="hero-note" aria-label="Dato editable">
+            <span>Dato editable</span>
+            <strong>Horario, especialidad o detalle destacado de la casa.</strong>
+          </aside>
+        </div>
+      </div>
     </section>
 
-    <section class="intro-strip" aria-label="Resumen de Despistados Café">
-      <div class="container intro-grid">
-        <div class="intro-item" data-animate="stagger">
-          <span>01</span>
-          <strong>Café artesanal</strong>
-          <p>Preparaciones cuidadas para quienes disfrutan cada detalle en la taza.</p>
-        </div>
-
-        <div class="intro-item" data-animate="stagger">
-          <span>02</span>
-          <strong>Repostería selecta</strong>
-          <p>Acompañamientos dulces y salados pensados para elevar cada bebida.</p>
-        </div>
-
-        <div class="intro-item" data-animate="stagger">
-          <span>03</span>
-          <strong>Ambiente cálido</strong>
-          <p>Un espacio cómodo para conversar, leer, trabajar o desconectarte.</p>
-        </div>
-
-        <a
-          class="intro-item review-card"
-          href="https://www.google.com/maps/search/?api=1&query=Despistados%20Caf%C3%A9&query_place_id=ChIJOVVVVTKnY48Rh8ZbzQmLl24"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-animate="stagger"
-          aria-label="Ver reseñas de Despistados Café en Google Maps"
-        >
-          <span>Google</span>
-          <strong>4.8/5</strong>
-          <p>100+ reseñas de visitantes que recomiendan la experiencia.</p>
-        </a>
-      </div>
+    <section class="quick-facts" aria-label="Datos r&aacute;pidos">
+      <ul class="container facts-grid">
+        <li data-animate="stagger">Caf&eacute; artesanal</li>
+        <li data-animate="stagger">Reposter&iacute;a</li>
+        <li data-animate="stagger">Ambiente tranquilo</li>
+        <li data-animate="stagger">La Palma, Chalatenango</li>
+      </ul>
     </section>
 
     <section class="experience section" id="experiencia">
-      <div class="container split-layout">
+      <div class="container section-intro" data-animate="fade-up">
+        <span class="eyebrow">La experiencia</span>
+        <h2>Una pausa c&aacute;lida, artesanal y sin prisa.</h2>
+        <p>
+          Un espacio pensado para bajar el ritmo, compartir una conversaci&oacute;n y
+          disfrutar detalles bien cuidados.
+        </p>
+      </div>
+
+      <div class="container experience-grid">
+        <article class="experience-card" data-animate="stagger">
+          <span>01</span>
+          <h3>Caf&eacute; preparado con calma</h3>
+          <p>Espacio para describir el cuidado de cada bebida cuando el contenido final est&eacute; listo.</p>
+        </article>
+
+        <article class="experience-card" data-animate="stagger">
+          <span>02</span>
+          <h3>Espacio para conversar</h3>
+          <p>Placeholder breve para comunicar el ambiente del local sin cerrar el mensaje definitivo.</p>
+        </article>
+
+        <article class="experience-card" data-animate="stagger">
+          <span>03</span>
+          <h3>Reposter&iacute;a seleccionada</h3>
+          <p>Texto corto editable para destacar acompa&ntilde;amientos, temporada o especialidades.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="favorites section" id="favoritos">
+      <div class="container section-heading" data-animate="fade-up">
+        <span class="eyebrow">Favoritos de la casa</span>
+        <h2>Una selecci&oacute;n curada para abrir el apetito.</h2>
+        <p>
+          Cuatro espacios destacados para presentar bebidas, reposter&iacute;a y especiales
+          cuando el men&uacute; final est&eacute; confirmado.
+        </p>
+      </div>
+
+      <div class="container product-grid">
+        <article class="product-card" data-animate="stagger">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=86"
+              alt="Taza de caf&eacute; con leche"
+            />
+          </div>
+          <div class="product-copy">
+            <span class="product-tag">Recomendado</span>
+            <h3>Bebida destacada 01</h3>
+            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <a href="#menu">Ver en men&uacute;</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-animate="stagger">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=86"
+              alt="Bebida fr&iacute;a con hielo"
+            />
+          </div>
+          <div class="product-copy">
+            <span class="product-tag">Fr&iacute;o</span>
+            <h3>Bebida destacada 02</h3>
+            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <a href="#menu">Ver en men&uacute;</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-animate="stagger">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=86"
+              alt="Reposter&iacute;a artesanal sobre una mesa"
+            />
+          </div>
+          <div class="product-copy">
+            <span class="product-tag">De casa</span>
+            <h3>Reposter&iacute;a destacada</h3>
+            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <a href="#menu">Ver en men&uacute;</a>
+          </div>
+        </article>
+
+        <article class="product-card" data-animate="stagger">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=86"
+              alt="Barra de caf&eacute; con utensilios"
+            />
+          </div>
+          <div class="product-copy">
+            <span class="product-tag">Especial</span>
+            <h3>Especial de temporada</h3>
+            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <a href="#menu">Ver en men&uacute;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-preview section" id="menu">
+      <div class="container menu-layout">
         <div class="section-copy" data-animate="fade-up">
-          <span class="eyebrow">Nuestra experiencia</span>
-          <h2>Un lugar para encontrarte, aunque vengas <span>despistado</span>.</h2>
-          <p>
-            En Despistados creemos que una buena taza no debería tomarse de carrera.
-            Por eso cuidamos el ambiente, los detalles y el ritmo de cada visita.
+        <span class="eyebrow">Preview del men&uacute;</span>
+        <h2>Una carta breve, clara y f&aacute;cil de actualizar.</h2>
+        <p>
+            Categor&iacute;as principales preparadas para integrar el men&uacute; real sin depender
+            &uacute;nicamente del PDF.
           </p>
+          <a class="btn btn-primary" href="assets/menu-despistados-cafe.pdf" target="_blank" rel="noopener noreferrer">
+            Ver men&uacute; completo
+          </a>
         </div>
 
-        <div class="feature-panel" data-animate="fade-up">
-          <span class="panel-index">01</span>
-          <h3>Café con intención</h3>
-          <p>
-            Bebidas preparadas con calma, sabores equilibrados y una experiencia que invita a quedarse.
-          </p>
-          <div class="panel-divider" aria-hidden="true"></div>
-          <p class="panel-note">Una pausa honesta, servida con carácter.</p>
-        </div>
-      </div>
-    </section>
+        <div class="menu-categories">
+          <article class="menu-category" data-animate="stagger">
+            <span>01</span>
+            <h3>Caf&eacute;s calientes</h3>
+            <p>Espacio para bebidas cl&aacute;sicas, m&eacute;todos o preparaciones de la casa.</p>
+          </article>
 
-    <section class="bestsellers section" id="favoritos">
-      <div class="container">
-        <div class="section-heading" data-animate="fade-up">
-          <span class="eyebrow">Más vendidos</span>
-          <h2>Los favoritos de la casa.</h2>
-          <p>
-            Una vitrina breve de bebidas y acompañamientos que mejor representan el espíritu de Despistados.
-          </p>
-        </div>
+          <article class="menu-category" data-animate="stagger">
+            <span>02</span>
+            <h3>Bebidas fr&iacute;as</h3>
+            <p>Placeholder para bebidas con hielo, frapp&eacute;s o propuestas refrescantes.</p>
+          </article>
 
-        <div class="carousel-shell" data-animate="fade-up">
-          <div class="carousel-topline">
-            <span>Selección curada</span>
-            <div class="carousel-progress" aria-hidden="true"><span></span></div>
-          </div>
+          <article class="menu-category" data-animate="stagger">
+            <span>03</span>
+            <h3>Reposter&iacute;a</h3>
+            <p>Espacio editable para postres, panader&iacute;a o acompa&ntilde;amientos.</p>
+          </article>
 
-          <button class="carousel-btn carousel-prev" type="button" aria-label="Producto anterior">
-            <span aria-hidden="true">&larr;</span>
-          </button>
-
-          <div class="carousel-window">
-            <div class="product-track">
-              <article class="product-card is-active">
-                <div class="product-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1100&q=86"
-                    alt="Latte servido en taza blanca"
-                  />
-                </div>
-                <div class="product-info">
-                  <span class="product-tag">Más pedido</span>
-                  <h3>Latte Despistado</h3>
-                  <p>Suave, cremoso y perfecto para una pausa larga.</p>
-                  <strong>$0.00</strong>
-                </div>
-              </article>
-
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1100&q=86"
-                    alt="Café servido en una mesa de cafetería"
-                  />
-                </div>
-                <div class="product-info">
-                  <span class="product-tag">Favorito</span>
-                  <h3>Cappuccino de la casa</h3>
-                  <p>Espresso intenso, leche texturizada y espuma delicada.</p>
-                  <strong>$0.00</strong>
-                </div>
-              </article>
-
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1100&q=86"
-                    alt="Cold brew en vaso con hielo"
-                  />
-                </div>
-                <div class="product-info">
-                  <span class="product-tag">Refrescante</span>
-                  <h3>Cold Brew</h3>
-                  <p>Extracción lenta, perfil suave y frescura sin prisa.</p>
-                  <strong>$0.00</strong>
-                </div>
-              </article>
-
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1100&q=86"
-                    alt="Pan artesanal y repostería"
-                  />
-                </div>
-                <div class="product-info">
-                  <span class="product-tag">Para acompañar</span>
-                  <h3>Repostería de casa</h3>
-                  <p>Postres y bocados selectos para acompañar tu bebida favorita.</p>
-                  <strong>$0.00</strong>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <button class="carousel-btn carousel-next" type="button" aria-label="Producto siguiente">
-            <span aria-hidden="true">&rarr;</span>
-          </button>
-
-          <div class="carousel-dots" aria-label="Seleccionar producto"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="menu-pdf section" id="menu">
-      <div class="container menu-pdf-card" data-animate="fade-up">
-        <div>
-          <span class="eyebrow">Menú completo</span>
-          <h2>Consulta todos nuestros productos en PDF.</h2>
-          <p>
-            Para mantener esta landing limpia y elegante, el menú completo vive en un archivo PDF
-            fácil de abrir, compartir o descargar desde el teléfono.
-          </p>
-        </div>
-
-        <a class="btn btn-primary" href="assets/menu-despistados-cafe.pdf" target="_blank" rel="noopener noreferrer">
-          Abrir menú PDF
-        </a>
-      </div>
-    </section>
-
-    <section class="dark-feature section">
-      <div class="container split-layout reverse">
-        <div class="dark-image" data-animate="image-reveal">
-          <img
-            src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=1300&q=86"
-            alt="Preparación de café de especialidad"
-          />
-        </div>
-
-        <div class="section-copy light" data-animate="fade-up">
-          <span class="eyebrow">Preparado con intención</span>
-          <h2>Cada taza tiene su propio ritmo.</h2>
-          <p>
-            Desde el aroma inicial hasta el último sorbo, buscamos que cada bebida tenga carácter,
-            equilibrio y una preparación que se note.
-          </p>
-          <a class="btn btn-light" href="#ubicacion">Visítanos</a>
+          <article class="menu-category" data-animate="stagger">
+            <span>04</span>
+            <h3>Especiales</h3>
+            <p>Bloque flexible para temporada, recomendaciones o productos limitados.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="gallery section" id="galeria">
-      <div class="container">
-        <div class="section-heading" data-animate="fade-up">
-          <span class="eyebrow">Galería</span>
-          <h2>Pequeños momentos, bien servidos.</h2>
-          <p>Café, luz cálida, texturas naturales y detalles que hacen que la visita se recuerde.</p>
+      <div class="container section-heading" data-animate="fade-up">
+        <span class="eyebrow">Galer&iacute;a editorial</span>
+        <h2>Ambiente, textura y momentos para recordar.</h2>
+        <p>
+          Una composici&oacute;n tipo revista preparada para mostrar el local, productos y
+          detalles artesanales con las fotos finales.
+        </p>
+      </div>
+
+      <div class="container gallery-grid">
+        <figure class="gallery-item gallery-large" data-animate="stagger">
+          <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1300&q=86"
+            alt="Interior c&aacute;lido de cafeter&iacute;a"
+          />
+        </figure>
+
+        <figure class="gallery-item" data-animate="stagger">
+          <img
+            src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=86"
+            alt="Taza de caf&eacute; sobre una mesa"
+          />
+        </figure>
+
+        <figure class="gallery-item" data-animate="stagger">
+          <img
+            src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=900&q=86"
+            alt="Reposter&iacute;a servida en cafeter&iacute;a"
+          />
+        </figure>
+
+        <figure class="gallery-item gallery-wide" data-animate="stagger">
+          <img
+            src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1300&q=86"
+            alt="Cafeter&iacute;a con ambiente tranquilo"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="reviews section" aria-labelledby="reviews-title">
+      <div class="container reviews-layout">
+        <div class="reviews-summary" data-animate="fade-up">
+          <span class="eyebrow">Prueba social</span>
+          <h2 id="reviews-title">Lo que dicen quienes visitan Despistados.</h2>
+          <div class="rating-badge" aria-label="Rating editable">
+            <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <strong>4.8 en Google</strong>
+          </div>
         </div>
 
-        <div class="gallery-grid">
-          <figure class="gallery-item gallery-large" data-animate="stagger">
-            <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1300&q=86"
-              alt="Interior elegante de cafetería"
-            />
-          </figure>
+        <div class="review-grid">
+          <article class="review-card" data-animate="stagger">
+            <p>&ldquo;Rese&ntilde;a corta editable sobre la experiencia, el ambiente o la atenci&oacute;n.&rdquo;</p>
+            <span>Cliente / fuente</span>
+          </article>
 
-          <figure class="gallery-item" data-animate="stagger">
-            <img
-              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=86"
-              alt="Barra de café"
-            />
-          </figure>
+          <article class="review-card" data-animate="stagger">
+            <p>&ldquo;Texto breve pendiente de reemplazar por una rese&ntilde;a real y autorizada.&rdquo;</p>
+            <span>Cliente / fuente</span>
+          </article>
 
-          <figure class="gallery-item" data-animate="stagger">
-            <img
-              src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=86"
-              alt="Taza de café sobre mesa"
-            />
-          </figure>
-
-          <figure class="gallery-item gallery-wide" data-animate="stagger">
-            <img
-              src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1300&q=86"
-              alt="Cafetería con ambiente cálido"
-            />
-          </figure>
+          <article class="review-card" data-animate="stagger">
+            <p>&ldquo;Placeholder para destacar caf&eacute;, reposter&iacute;a o ambiente cuando se confirme.&rdquo;</p>
+            <span>Cliente / fuente</span>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="location section" id="ubicacion">
-      <div class="container split-layout">
+      <div class="container location-layout">
         <div class="section-copy" data-animate="fade-up">
-          <span class="eyebrow">Visítanos</span>
-          <h2>Estamos listos para servirte una pausa.</h2>
+          <span class="eyebrow">Ubicaci&oacute;n y contacto</span>
+          <h2>Una visita f&aacute;cil de planear.</h2>
           <p>
-            Ven por un café, una conversación o un momento tranquilo en Despistados.
+            Datos principales para llegar, escribir por WhatsApp y confirmar el horario
+            antes de tu visita.
           </p>
 
-          <div class="info-list">
-            <div class="info-item">
-              <span>Dirección</span>
+          <div class="contact-list">
+            <div class="contact-item">
+              <span>Direcci&oacute;n</span>
               <strong>3a Calle Pte. 721, La Palma, Chalatenango</strong>
             </div>
-            <div class="info-item">
+
+            <div class="contact-item">
               <span>Horario</span>
-              <strong>Martes a domingo · 2:00 p.m. - 7:00 p.m.</strong>
+              <strong>Martes a domingo, 2:00 p.m. - 7:00 p.m.</strong>
             </div>
-            <div class="info-item">
-              <span>Contacto</span>
+
+            <div class="contact-item">
+              <span>WhatsApp</span>
               <strong>+503 7273 6123</strong>
             </div>
           </div>
 
           <div class="location-actions">
             <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Despistados%20Caf%C3%A9&query_place_id=ChIJOVVVVTKnY48Rh8ZbzQmLl24" target="_blank" rel="noopener noreferrer">
-              Abrir en Google Maps
+              C&oacute;mo llegar
             </a>
-            <a class="btn btn-ghost" href="https://wa.me/50372736123" target="_blank" rel="noopener noreferrer">
+            <a class="btn btn-secondary" href="https://wa.me/50372736123" target="_blank" rel="noopener noreferrer">
               Escribir por WhatsApp
             </a>
           </div>
@@ -364,7 +354,7 @@
         <div class="map-card" data-animate="fade-up">
           <iframe
             class="map-embed"
-            title="Mapa de Despistados Café"
+            title="Mapa de Despistados Caf&eacute;"
             src="https://www.google.com/maps?q=14.317194,-89.172611&z=18&output=embed"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
@@ -373,42 +363,29 @@
         </div>
       </div>
     </section>
-
-    <section class="final-cta">
-      <div class="container final-content" data-animate="fade-up">
-        <div class="hero-logo small" aria-label="Despistados Café">
-          <span class="logo-name">Despistados</span>
-          <span class="logo-sub">Café</span>
-        </div>
-
-        <h2>Ven por un café. Quédate por la experiencia.</h2>
-        <p>Te esperamos con una taza preparada sin prisa.</p>
-
-        <div class="hero-actions center">
-          <a class="btn btn-primary" href="#ubicacion">Cómo llegar</a>
-          <a class="btn btn-ghost" href="assets/menu-despistados-cafe.pdf" target="_blank" rel="noopener noreferrer">
-            Ver menú PDF
-          </a>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <a href="#inicio" class="brand footer-brand" aria-label="Despistados Café - Inicio">
-        <span class="logo-name">Despistados</span>
-        <span class="logo-sub">Café</span>
-      </a>
-
-      <div class="footer-links">
-        <a href="#experiencia">Experiencia</a>
-        <a href="#favoritos">Favoritos</a>
-        <a href="#menu">Menú PDF</a>
-        <a href="#ubicacion">Ubicación</a>
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="brand footer-brand" aria-label="Despistados Caf&eacute; - Inicio">
+          <span class="logo-name">Despistados</span>
+          <span class="logo-sub">Caf&eacute;</span>
+        </a>
+        <p>Frase corta editable sobre la experiencia de marca.</p>
       </div>
 
-      <p>© 2026 Despistados. Todos los derechos reservados.</p>
+      <nav class="footer-links" aria-label="Enlaces r&aacute;pidos">
+        <a href="#experiencia">Experiencia</a>
+        <a href="#menu">Men&uacute;</a>
+        <a href="#galeria">Galer&iacute;a</a>
+        <a href="#ubicacion">Ubicaci&oacute;n</a>
+      </nav>
+
+      <div class="footer-meta">
+        <p>&copy; 2026 Despistados Caf&eacute;. Todos los derechos reservados.</p>
+        <p>Dise&ntilde;o y desarrollo web por Hugo Carranza.</p>
+      </div>
     </div>
   </footer>
 
