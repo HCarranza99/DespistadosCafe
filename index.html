@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Despistados Caf&eacute; es una cafeter&iacute;a boutique en La Palma con caf&eacute; artesanal, reposter&iacute;a y una experiencia c&aacute;lida para disfrutar sin prisa."
+    content="Despistados Caf&eacute; es una cafeter&iacute;a boutique en La Palma para perder la prisa entre caf&eacute; artesanal, reposter&iacute;a y un ambiente c&aacute;lido."
   />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,7 +56,15 @@
 
   <main id="inicio">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="container hero-layout">
+      <img
+        class="hero-backdrop"
+        src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=2200&q=88"
+        alt="Interior de cafeter&iacute;a boutique con barra y luz c&aacute;lida"
+      />
+
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
         <div class="hero-copy" data-animate="fade-up">
           <span class="eyebrow">Caf&eacute; boutique en La Palma</span>
           <h1 id="hero-title">
@@ -64,8 +72,8 @@
             <span class="logo-sub">Caf&eacute;</span>
           </h1>
           <p>
-            Caf&eacute; artesanal, reposter&iacute;a seleccionada y una pausa c&aacute;lida para
-            disfrutar sin prisa.
+            Caf&eacute; artesanal y reposter&iacute;a seleccionada para una pausa c&aacute;lida,
+            serena y sin prisa.
           </p>
 
           <div class="hero-actions">
@@ -74,36 +82,27 @@
           </div>
         </div>
 
-        <div class="hero-media" data-animate="image-reveal">
-          <img
-            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=86"
-            alt="Caf&eacute; servido en una mesa de cafeter&iacute;a"
-          />
-
-          <aside class="hero-note" aria-label="Dato editable">
-            <span>Dato editable</span>
-            <strong>Horario, especialidad o detalle destacado de la casa.</strong>
-          </aside>
-        </div>
+        <aside class="hero-note" data-animate="fade-up" aria-label="Detalle de la experiencia">
+          <span>Para perder la prisa</span>
+          <strong>Un rinc&oacute;n para tomar caf&eacute;, conversar y encontrarte de nuevo.</strong>
+        </aside>
       </div>
-    </section>
 
-    <section class="quick-facts" aria-label="Datos r&aacute;pidos">
-      <ul class="container facts-grid">
-        <li data-animate="stagger">Caf&eacute; artesanal</li>
-        <li data-animate="stagger">Reposter&iacute;a</li>
-        <li data-animate="stagger">Ambiente tranquilo</li>
-        <li data-animate="stagger">La Palma, Chalatenango</li>
+      <ul class="container hero-facts" aria-label="Datos r&aacute;pidos">
+        <li>Caf&eacute; artesanal</li>
+        <li>Reposter&iacute;a</li>
+        <li>Ambiente tranquilo</li>
+        <li>La Palma</li>
       </ul>
     </section>
 
     <section class="experience section" id="experiencia">
       <div class="container section-intro" data-animate="fade-up">
         <span class="eyebrow">La experiencia</span>
-        <h2>Una pausa c&aacute;lida, artesanal y sin prisa.</h2>
+        <h2>Una pausa c&aacute;lida para perder la prisa.</h2>
         <p>
-          Un espacio pensado para bajar el ritmo, compartir una conversaci&oacute;n y
-          disfrutar detalles bien cuidados.
+          En Despistados, cada visita est&aacute; pensada para bajar el ritmo:
+          una taza servida con calma, una mesa c&oacute;moda y el tiempo justo para volver a estar presente.
         </p>
       </div>
 
@@ -111,19 +110,19 @@
         <article class="experience-card" data-animate="stagger">
           <span>01</span>
           <h3>Caf&eacute; preparado con calma</h3>
-          <p>Espacio para describir el cuidado de cada bebida cuando el contenido final est&eacute; listo.</p>
+          <p>Tazas que invitan a detenerse, respirar hondo y disfrutar el aroma antes del primer sorbo.</p>
         </article>
 
         <article class="experience-card" data-animate="stagger">
           <span>02</span>
           <h3>Espacio para conversar</h3>
-          <p>Placeholder breve para comunicar el ambiente del local sin cerrar el mensaje definitivo.</p>
+          <p>Un ambiente c&aacute;lido para llegar despistado, quedarse un rato y salir con el d&iacute;a m&aacute;s ligero.</p>
         </article>
 
         <article class="experience-card" data-animate="stagger">
           <span>03</span>
           <h3>Reposter&iacute;a seleccionada</h3>
-          <p>Texto corto editable para destacar acompa&ntilde;amientos, temporada o especialidades.</p>
+          <p>Bocados pensados para acompa&ntilde;ar la pausa: algo dulce, algo suave, algo para compartir.</p>
         </article>
       </div>
     </section>
@@ -131,10 +130,10 @@
     <section class="favorites section" id="favoritos">
       <div class="container section-heading" data-animate="fade-up">
         <span class="eyebrow">Favoritos de la casa</span>
-        <h2>Una selecci&oacute;n curada para abrir el apetito.</h2>
+        <h2>Una selecci&oacute;n para pedir sin pensarlo demasiado.</h2>
         <p>
-          Cuatro espacios destacados para presentar bebidas, reposter&iacute;a y especiales
-          cuando el men&uacute; final est&eacute; confirmado.
+          Algunas pausas empiezan con una taza caliente, otras con algo fr&iacute;o,
+          y muchas con un antojo que aparece justo a tiempo.
         </p>
       </div>
 
@@ -148,8 +147,8 @@
           </div>
           <div class="product-copy">
             <span class="product-tag">Recomendado</span>
-            <h3>Bebida destacada 01</h3>
-            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <h3>Caf&eacute; para perder la prisa</h3>
+            <p>Una taza suave y reconfortante para empezar la pausa con calma.</p>
             <a href="#menu">Ver en men&uacute;</a>
           </div>
         </article>
@@ -163,8 +162,8 @@
           </div>
           <div class="product-copy">
             <span class="product-tag">Fr&iacute;o</span>
-            <h3>Bebida destacada 02</h3>
-            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <h3>Bebida fr&iacute;a para volver</h3>
+            <p>Refrescante, tranquila y perfecta para tardes largas en La Palma.</p>
             <a href="#menu">Ver en men&uacute;</a>
           </div>
         </article>
@@ -178,8 +177,8 @@
           </div>
           <div class="product-copy">
             <span class="product-tag">De casa</span>
-            <h3>Reposter&iacute;a destacada</h3>
-            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <h3>Un bocado para quedarse</h3>
+            <p>Reposter&iacute;a para acompa&ntilde;ar la conversaci&oacute;n y alargar el momento.</p>
             <a href="#menu">Ver en men&uacute;</a>
           </div>
         </article>
@@ -194,7 +193,7 @@
           <div class="product-copy">
             <span class="product-tag">Especial</span>
             <h3>Especial de temporada</h3>
-            <p>Descripci&oacute;n corta del producto, lista para reemplazar.</p>
+            <p>Una propuesta de la casa para quienes disfrutan descubrir algo distinto.</p>
             <a href="#menu">Ver en men&uacute;</a>
           </div>
         </article>
@@ -204,11 +203,11 @@
     <section class="menu-preview section" id="menu">
       <div class="container menu-layout">
         <div class="section-copy" data-animate="fade-up">
-        <span class="eyebrow">Preview del men&uacute;</span>
-        <h2>Una carta breve, clara y f&aacute;cil de actualizar.</h2>
-        <p>
-            Categor&iacute;as principales preparadas para integrar el men&uacute; real sin depender
-            &uacute;nicamente del PDF.
+          <span class="eyebrow">Preview del men&uacute;</span>
+          <h2>La carta para perderse un rato.</h2>
+          <p>
+            El men&uacute; re&uacute;ne bebidas, antojos y especiales para elegir seg&uacute;n el clima,
+            el antojo o la conversaci&oacute;n que traigas.
           </p>
           <a class="btn btn-primary" href="assets/menu-despistados-cafe.pdf" target="_blank" rel="noopener noreferrer">
             Ver men&uacute; completo
@@ -219,25 +218,25 @@
           <article class="menu-category" data-animate="stagger">
             <span>01</span>
             <h3>Caf&eacute;s calientes</h3>
-            <p>Espacio para bebidas cl&aacute;sicas, m&eacute;todos o preparaciones de la casa.</p>
+            <p>Cl&aacute;sicos de caf&eacute;, leche texturizada y preparaciones para quienes aman una taza serena.</p>
           </article>
 
           <article class="menu-category" data-animate="stagger">
             <span>02</span>
             <h3>Bebidas fr&iacute;as</h3>
-            <p>Placeholder para bebidas con hielo, frapp&eacute;s o propuestas refrescantes.</p>
+            <p>Opciones frescas para tardes soleadas, caminos largos y ganas de algo ligero.</p>
           </article>
 
           <article class="menu-category" data-animate="stagger">
             <span>03</span>
             <h3>Reposter&iacute;a</h3>
-            <p>Espacio editable para postres, panader&iacute;a o acompa&ntilde;amientos.</p>
+            <p>Acompa&ntilde;amientos dulces para convertir una visita r&aacute;pida en una pausa completa.</p>
           </article>
 
           <article class="menu-category" data-animate="stagger">
             <span>04</span>
             <h3>Especiales</h3>
-            <p>Bloque flexible para temporada, recomendaciones o productos limitados.</p>
+            <p>Propuestas de la casa para quienes prefieren dejarse sorprender un poco.</p>
           </article>
         </div>
       </div>
@@ -246,10 +245,10 @@
     <section class="gallery section" id="galeria">
       <div class="container section-heading" data-animate="fade-up">
         <span class="eyebrow">Galer&iacute;a editorial</span>
-        <h2>Ambiente, textura y momentos para recordar.</h2>
+        <h2>Rincones para perder la noci&oacute;n del tiempo.</h2>
         <p>
-          Una composici&oacute;n tipo revista preparada para mostrar el local, productos y
-          detalles artesanales con las fotos finales.
+          La galer&iacute;a est&aacute; lista para recibir las fotos finales del local:
+          luz c&aacute;lida, caf&eacute; servido, mesas compartidas y peque&ntilde;os detalles de la casa.
         </p>
       </div>
 
@@ -287,9 +286,9 @@
     <section class="reviews section" aria-labelledby="reviews-title">
       <div class="container reviews-layout">
         <div class="reviews-summary" data-animate="fade-up">
-          <span class="eyebrow">Prueba social</span>
-          <h2 id="reviews-title">Lo que dicen quienes visitan Despistados.</h2>
-          <div class="rating-badge" aria-label="Rating editable">
+          <span class="eyebrow">Manifiesto despistado</span>
+          <h2 id="reviews-title">Lo que buscamos que se sienta en cada visita.</h2>
+          <div class="rating-badge" aria-label="Rating en Google">
             <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
             <strong>4.8 en Google</strong>
           </div>
@@ -297,18 +296,18 @@
 
         <div class="review-grid">
           <article class="review-card" data-animate="stagger">
-            <p>&ldquo;Rese&ntilde;a corta editable sobre la experiencia, el ambiente o la atenci&oacute;n.&rdquo;</p>
-            <span>Cliente / fuente</span>
+            <p>Una mesa para hablar sin mirar tanto el reloj.</p>
+            <span>Pausa tranquila</span>
           </article>
 
           <article class="review-card" data-animate="stagger">
-            <p>&ldquo;Texto breve pendiente de reemplazar por una rese&ntilde;a real y autorizada.&rdquo;</p>
-            <span>Cliente / fuente</span>
+            <p>Una taza que acompa&ntilde;a el camino, la tarde o el reencuentro.</p>
+            <span>Caf&eacute; con calma</span>
           </article>
 
           <article class="review-card" data-animate="stagger">
-            <p>&ldquo;Placeholder para destacar caf&eacute;, reposter&iacute;a o ambiente cuando se confirme.&rdquo;</p>
-            <span>Cliente / fuente</span>
+            <p>Un lugar para llegar despistado y salir un poco m&aacute;s presente.</p>
+            <span>Esp&iacute;ritu de casa</span>
           </article>
         </div>
       </div>
@@ -318,10 +317,10 @@
       <div class="container location-layout">
         <div class="section-copy" data-animate="fade-up">
           <span class="eyebrow">Ubicaci&oacute;n y contacto</span>
-          <h2>Una visita f&aacute;cil de planear.</h2>
+          <h2>Si te despistaste por La Palma, aqu&iacute; puedes hacer pausa.</h2>
           <p>
-            Datos principales para llegar, escribir por WhatsApp y confirmar el horario
-            antes de tu visita.
+            Ven por una taza, una conversaci&oacute;n o un momento tranquilo. Puedes llegar con calma
+            o escribirnos antes de visitarnos.
           </p>
 
           <div class="contact-list">
@@ -372,7 +371,7 @@
           <span class="logo-name">Despistados</span>
           <span class="logo-sub">Caf&eacute;</span>
         </a>
-        <p>Frase corta editable sobre la experiencia de marca.</p>
+        <p>Un caf&eacute; para perder la prisa y encontrarse en el camino.</p>
       </div>
 
       <nav class="footer-links" aria-label="Enlaces r&aacute;pidos">
